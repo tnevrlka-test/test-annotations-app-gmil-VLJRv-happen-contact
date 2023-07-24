@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-gzvt
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-ekwb-tenant/test-annotations-app-gmil/test-annotations-gzvt@sha256:675fa7ac7a6bcb82e2db24d0de7f693537118a140e31b688448f824dc2c00e00
+        name: my-nginx
+        resources: {}
+status: {}
